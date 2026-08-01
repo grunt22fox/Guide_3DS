@@ -6,7 +6,7 @@ Esta é uma seção adicional para verificar erros no seu cartão SD usando h2te
 
 Dependendo do tamanho do seu cartão SD e da velocidade do seu computador, este processo pode demorar até várias horas!
 
-Esta página é destinada apenas a usuários do Windows. Se você não estiver no Windows, confira as páginas [F3 (Linux)](f3-\(linux\)) ou [F3X (Mac)](f3x-\(mac\)).
+Esta página é destinada apenas a usuários do Windows. Se você não estiver no Windows, confira as páginas [F3 (Linux)](f3-(linux)) ou [F3X (Mac)](f3x-(mac)).
 
 ## O que é necessário
 

@@ -14,7 +14,7 @@ Esta página oferece recursos de solução de problemas para problemas com a pá
 
 ::: tip
 
-Voltar para [Instalando boot9strap (ntrboot)](installing-boot9strap-\(ntrboot\))
+Voltar para [Instalando boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 
 :::
 

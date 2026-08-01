@@ -32,7 +32,7 @@ Il file `arm11code.bin` è mancante o mal posizionato. Scarica l'ultima versione
 
 :::
 
-:::details White message box error
+:::details Messaggio d'errore su schermata bianca
 
 Potrebbe esserci un problema con il tuo file `arm11code.bin`. Scarica l'ultima versione di [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), posiziona il file `otherapp.bin` nella directory principale della tua scheda SD`e rinominalo in`arm11code.bin`. Non aggiungere l'estensione `.bin\` se non la vedi presente.
 

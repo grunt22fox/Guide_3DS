@@ -32,7 +32,7 @@ O arquivo `arm11code.bin` está faltando ou fora do lugar apropriado. Baixe a ú
 
 :::
 
-:::details White message box error
+:::details Caixa de erro branca
 
 Pode haver um erro com seu arquivo `arm11code.bin`. Baixe a última versão do [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), coloque `otherapp.bin` na raíz do cartão SD e renomeie-o para `arm11code.bin`. Não adicione a extensão `.bin` se você não a vê.
 

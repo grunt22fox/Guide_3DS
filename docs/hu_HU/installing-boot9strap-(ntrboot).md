@@ -14,7 +14,7 @@ Ahhoz, hogy használhasd a [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme
 
 ::: warning
 
-If you are using a **DSpico** or an **Ace3DS X**, ensure that you have a blank microSD card inserted into its microSD card slot. You do not need to put any files onto this microSD card; these cartridges require a microSD card to be inserted in order to trigger ntrboot.
+Ha **DSpico**-t vagy **Ace3DS X**-et használsz, legyen egy üres microSD kártya behelyezve a microSD kártya slotba. Nem szükséges bármilyen fájlt ráhelyezned a microSD kártyára, ezek a cartridge-ek egy behelyezett microSD kártyát igényelnek az ntrboot kiváltásához.
 
 :::
 
@@ -50,7 +50,7 @@ If you are using a **DSpico** or an **Ace3DS X**, ensure that you have a blank m
    - Erre a lépésre nincsen szükség az Old 2DS esetében (amin van alvó üzemmód kapcsoló)
 2. Kapcsold ki a konzolod
 3. Helyezd a flashkártyádat a konzolodba
-4. Place the magnet near the (A)(B)(X)(Y) buttons on your console to trigger the sleep sensor
+4. Helyezd a mágnest a konzolodra az (A)(B)(X)(Y) gombok közelébe, hogy előidézd az alvó állapotot
    - Old 2DS készülék esetében egyszerűen csak aktiváld az alvó üzemmódot a kapcsolóval
 5. Tartsd lenyomva a (Start) + (Select) + (X) + (Bekapcsológomb) kombinációt pár másodpercig, majd engedd fel őket
    - Elképzelhető, hogy ez csak sokadjára sikerül csak a gombok elhelyezése miatt
@@ -93,9 +93,9 @@ A következő rész tetszőlegesen választható, melynek célja, hogy a flashk�
 
 ::: warning
 
-**DSpico users** do not need to follow this section, as the hybrid firmware works for both ntrboot and normal flashcart use.
+A **DSpico felhasználóknak** nem kell követni ezt a részt, mert a hibrid firmware ntrboot-ként és normál flashcart-ként is működik.
 
-**Ace3DS X users** can flip the switch on the cartridge the other way to return to normal flashcart mode.
+Az **Ace3DS X felhasználók** átválthatják a kapcsolót a cartridge-en a másik állásba, hogy visszatérjenek normál flashcart módba.
 
 :::
 
@@ -103,7 +103,7 @@ Vedd figyelembe, hogy az Acekard 2i annak ellenére képes az `.nds` fájlok eli
 
 Ne hajtsd végre az itt leírt utasításokat mindaddig, amíg nem végeztél az ezeket megelőzőekkel az oldalon.
 
-### Section V (optional) - Removing ntrboot
+### V. rész (opcionális) - Az ntrboot eltávolítása
 
 #### Amire szükséged lesz
 

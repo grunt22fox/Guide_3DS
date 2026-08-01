@@ -14,7 +14,7 @@ Pour utiliser les liens [magnet](https://fr.wikipedia.org/wiki/Magnet_(standard)
 
 ::: warning
 
-If you are using a **DSpico** or an **Ace3DS X**, ensure that you have a blank microSD card inserted into its microSD card slot. You do not need to put any files onto this microSD card; these cartridges require a microSD card to be inserted in order to trigger ntrboot.
+Si vous utilisez un **DSpico** ou un **Ace3DS X**, assurez-vous que vous avez une carte microSD vierge insérée dans le port microSD. Vous n'avez pas besoin de mettre des fichiers sur cette carte microSD ; ces cartouches ont besoin d'une carte microSD insérée afin de déclencher ntrboot.
 
 :::
 
@@ -50,7 +50,7 @@ If you are using a **DSpico** or an **Ace3DS X**, ensure that you have a blank m
    - Cette étape n’est pas nécessaire sur les old 2DS (qui ont un interrupteur de mode veille)
 2. Éteignez votre console
 3. Insérez votre linker dans votre console
-4. Place the magnet near the (A)(B)(X)(Y) buttons on your console to trigger the sleep sensor
+4. Placez l'aimant près des boutons (A)(B)(X)(Y) pour déclencher le capteur de veille
    - Sur une Old 2DS, vous devriez à la place activer l'interrupteur de mode veille
 5. Maintenez les boutons (Start) + (Select) + (X) + (Power) pendant plusieurs secondes, puis relâchez-les
    - Cela peut demander plusieurs essais pour que cela fonctionne car le positionnement des boutons est peu commode
@@ -93,9 +93,9 @@ Ce qui suit est une section facultative qui vous permettra de restaurer votre li
 
 ::: warning
 
-**DSpico users** do not need to follow this section, as the hybrid firmware works for both ntrboot and normal flashcart use.
+Les **utilisateurs du DSpico** n'ont pas besoin de suivre cette section, car le firmware hybride fonctionne à la fois pour ntrboot et l'usage normal d'un linker.
 
-**Ace3DS X users** can flip the switch on the cartridge the other way to return to normal flashcart mode.
+Les **utilisateurs du Ace3DS X** peuvent basculer l'interrupteur sur la cartouche dans l'autre sens pour retourner en mode linker standard.
 
 :::
 
@@ -103,7 +103,7 @@ Notez que l’Acekard 2i conserve sa capacité de lancer des fichiers « .nds 
 
 Ne suivez pas cette section tant que vous n'avez pas fini le reste des instructions de cette page.
 
-### Section V (optional) - Removing ntrboot
+### Section V (optionnel) - Suppression de ntrboot
 
 #### Ce dont vous avez besoin
 

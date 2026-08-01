@@ -6,7 +6,7 @@ ntrboot refers to the ability for all 3DS family consoles to boot into a special
 
 To use ntrboot, a compatible cartridge (normally a 'flashcart') is required. Many flashcarts from the NDS or DSi era can be repurposed for ntrboot, while new ones can be purchased for roughly $20 USD.
 
-No matter how you run ntrboot, you will need a small **magnet** that is strong enough to to put the console into sleep mode (except on the Old 2DS, which uses a sleep switch). To test if a magnet will work, hold it on or around the (A)(B)(X)(Y) buttons while the console is powered on to see if it triggers sleep mode. 如果会的话，只要把磁铁在那个位置附近，主机的两个屏幕就应该都会变黑。
+No matter how you run ntrboot, you will need a small **magnet** that is strong enough to put the console into sleep mode (except on the Old 2DS, which uses a sleep switch). To test if a magnet will work, hold it on or around the (A)(B)(X)(Y) buttons while the console is powered on to see if it triggers sleep mode. 如果会的话，只要把磁铁在那个位置附近，主机的两个屏幕就应该都会变黑。
 
 ## Recommended for new purchases
 

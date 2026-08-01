@@ -22,7 +22,7 @@ Se o LED de notificação piscar:
 - **Magenta**: Seu 3DS não conseguiu encontrar `boot.firm` no seu cartão SD. Foi capaz de encontrar `boot.firm` na memória interna, mas o arquivo está corrompido.
 - **Vermelho**: Seu 3DS conseguiu encontrar `boot.firm` em ambos cartão SD e memória interna, mas ambos arquivos estão corrompidos.
 
-Você pode obter um novo arquivo `boot.firm` baixando a [versão mais recente do Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest), extraindo e colocando o `boot.firm` na raiz do seu cartão SD. Se o seu arquivo `boot.firm` está sendo constantemente detectado como corrompido, você pode querer verificar se há erros no seu cartão SD ([Windows](h2testw-\(windows\)), [Linux](f3-\(linux\)), ou [macOS](f3xswift-\(mac\))). Além disso, note que o 3DS tende a ter problemas com arquivos extraídos usando WinRAR.
+Você pode obter um novo arquivo `boot.firm` baixando a [versão mais recente do Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest), extraindo e colocando o `boot.firm` na raiz do seu cartão SD. Se o seu arquivo `boot.firm` está sendo constantemente detectado como corrompido, você pode querer verificar se há erros no seu cartão SD ([Windows](h2testw-(windows)), [Linux](f3-(linux)), ou [macOS](f3xswift-(mac))). Além disso, note que o 3DS tende a ter problemas com arquivos extraídos usando WinRAR.
 
 Se você ouvir um "pop", potencialmente acompanhado com a tela ativando por um segundo, há um problema de hardware no seu dispositivo (como um cabo de tela desconectado). Você talvez possa fazer seu dispositivo inicializar segurando-o em certos ângulos.
 
@@ -86,8 +86,8 @@ Se este for o caso, tente os passos abaixo, os quais são listados de mais fáci
 
 1. Desligue o console, remova o cartão SD, insira-o novamente e, em seguida, ligue seu console
 2. Desligue o console, remova o cartão SD, insira-o no seu computador, baixe a versão mais recente do [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest), extraia `boot.firm` do `Luma3DS.zip` e coloque-o na raiz do seu cartão SD (substituindo qualquer arquivo existente)
-3. Desligue o console, remova o cartão SD, insira-o no seu computador e reformate o cartão SD de acordo com o sistema operacional do seu computador: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)) _(isso irá apagar os dados do seu cartão SD)_
-4. Verifique se há erros no seu cartão SD de acordo com o sistema operacional do seu computador: [Windows](h2testw-\(windows\)), [Linux](f3-\(linux\)), [macOS](f3xswift-\(mac\)). Se o seu cartão SD estiver marcado como defeituoso, então você terá que substituir o cartão SD
+3. Desligue o console, remova o cartão SD, insira-o no seu computador e reformate o cartão SD de acordo com o sistema operacional do seu computador: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux)) _(isso irá apagar os dados do seu cartão SD)_
+4. Verifique se há erros no seu cartão SD de acordo com o sistema operacional do seu computador: [Windows](h2testw-(windows)), [Linux](f3-(linux)), [macOS](f3xswift-(mac)). Se o seu cartão SD estiver marcado como defeituoso, então você terá que substituir o cartão SD
 5. Sua entrada de cartão SD pode estar com problemas. Junte-se a [Nintendo Homebrew no Discord](https://discord.gg/MWxPgEp) para obter mais ajuda
 
 :::

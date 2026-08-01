@@ -16,7 +16,7 @@
 
 :::details Estou na versão mais recente do sistema. É possível modificar meu console sem hardwares externos/prerequisitos?
 
-**Sim!** New 3DS / New 3DS XL / New 2DS XL podem usar [super-skaterhax](installing-boot9strap-\(super-skaterhax\)), enquanto 3DS / 3DS XL / 2DS podem usar [MSET9](installing-boot9strap-\(mset9\)).
+**Sim!** New 3DS / New 3DS XL / New 2DS XL podem usar [super-skaterhax](installing-boot9strap-(super-skaterhax)), enquanto 3DS / 3DS XL / 2DS podem usar [MSET9](installing-boot9strap-(mset9)).
 
 :::
 
@@ -82,7 +82,7 @@ Você precisará de pelo menos 1.5GB de espaço livre no cartão SD para seguir 
 
 Você deve usar apenas um cartão SD com um 3DS a qualquer momento. Se você usar outro cartão SD para aplicar mods em seu console, criará outro 'perfil' para o seu software com mods, que ficará inacessível no seu cartão SD original. No entanto, **seu console permanecerá com mods**, uma vez que o mod está instalado na memória interna (não no cartão SD).
 
-Se você comprou um cartão SD novo para usar com seu console, você deve formatar o cartão SD novo ([Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\))), e em seguida, copie e cole tudo do seu cartão SD antigo para o cartão SD novo. Você pode fazer isso antes ou depois de aplicar mods no console.
+Se você comprou um cartão SD novo para usar com seu console, você deve formatar o cartão SD novo ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))), e em seguida, copie e cole tudo do seu cartão SD antigo para o cartão SD novo. Você pode fazer isso antes ou depois de aplicar mods no console.
 
 :::
 
@@ -112,7 +112,7 @@ Se você estiver usando o Luma3DS, o seu custom firmware loader (boot9strap) _nu
 
 :::details Como faço para mudar de cartão SD?
 
-Copie e cole o conteúdo do cartão SD em um novo cartão SD formatado como FAT32. Para cartões de 128GB, é recomendado um tamanho de alocação de 65536. Cartões SD maiores que 128GB não são recomendados devido a problemas conhecidos com gráficos de GBA e temas personalizados. Instruções específicas de formatação estão disponíveis aqui: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)).
+Copie e cole o conteúdo do cartão SD em um novo cartão SD formatado como FAT32. Para cartões de 128GB, é recomendado um tamanho de alocação de 65536. Cartões SD maiores que 128GB não são recomendados devido a problemas conhecidos com gráficos de GBA e temas personalizados. Instruções específicas de formatação estão disponíveis aqui: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux)).
 
 :::
 

@@ -14,7 +14,7 @@ Per usare i link [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) di quest
 
 ::: warning
 
-If you are using a **DSpico** or an **Ace3DS X**, ensure that you have a blank microSD card inserted into its microSD card slot. You do not need to put any files onto this microSD card; these cartridges require a microSD card to be inserted in order to trigger ntrboot.
+Se stai usando un **DSpico** o un **Ace3DS X**, assicurati di avere una scheda microSD vuota inserita nel suo slot microSD. Non è necessario inserire alcun file nella microSD; queste schede di gioco ne richiedono una inserita per avviare ntrboot.
 
 :::
 
@@ -50,7 +50,7 @@ If you are using a **DSpico** or an **Ace3DS X**, ensure that you have a blank m
    - Questo passaggio non è necessario su un Old 2DS (che ha un interruttore per la modalità riposo)
 2. Spegni la tua console
 3. Inserisci la flashcart nella tua console
-4. Place the magnet near the (A)(B)(X)(Y) buttons on your console to trigger the sleep sensor
+4. Posiziona i magneti vicino i pulsanti (A)(B)(X)(Y) per attivare il sensore di standby
    - Su Old 2DS, devi invece attivare la levetta della modalità riposo
 5. Tieni premuto i pulsanti (Start) + (Select) + (X) + (Accensione) per alcuni secondi, quindi rilascia i pulsanti
    - Data la complessita dell'operazione, potrebbero volerci più tentativi
@@ -93,9 +93,9 @@ Questa è una sezione facoltativa che ti permetterà di riportare la flashcart a
 
 ::: warning
 
-**DSpico users** do not need to follow this section, as the hybrid firmware works for both ntrboot and normal flashcart use.
+Non seguire questa sezione se hai un **DSpico**, in quanto il firmware ibrido funziona sia per ntrboot sia come normale flashcart.
 
-**Ace3DS X users** can flip the switch on the cartridge the other way to return to normal flashcart mode.
+Chi ha un **Ace3DS X** può invertire la levetta sulla scheda di gioco per farla tornare una flashcart normale.
 
 :::
 
@@ -103,7 +103,7 @@ Tieni presente che la Acekard 2i mantiene le funzionalità di avvio dei file `.n
 
 Non seguire questa parte finché non avrai completato tutte le altre istruzioni indicate in questa pagina.
 
-### Section V (optional) - Removing ntrboot
+### Sezione V (opzionale) - Rimozione di ntrboot
 
 #### Cosa serve
 

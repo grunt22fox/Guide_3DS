@@ -6,11 +6,11 @@ Esta é uma seção adicional para verificar erros no seu cartão SD usando F3XS
 
 Dependendo do tamanho do seu cartão SD e da velocidade do seu computador, este processo pode demorar até várias horas!
 
-Esta página é destinada apenas a usuários do Mac. Caso você não esteja usando Mac, confira as páginas [H2testw (Windows)](h2testw-\(windows\)) ou [F3 (Linux)](f3-\(linux\)).
+Esta página é destinada apenas a usuários do Mac. Caso você não esteja usando Mac, confira as páginas [H2testw (Windows)](h2testw-(windows)) ou [F3 (Linux)](f3-(linux)).
 
 ::: info
 
-O F3XSwift só é compatível com o macOS 10.13 (High Sierra) e adiante. Se você tem uma versão mais antiga do macOS, siga ao invés [F3X (Mac)](f3x-\(mac\)).
+O F3XSwift só é compatível com o macOS 10.13 (High Sierra) e adiante. Se você tem uma versão mais antiga do macOS, siga ao invés [F3X (Mac)](f3x-(mac)).
 
 :::
 

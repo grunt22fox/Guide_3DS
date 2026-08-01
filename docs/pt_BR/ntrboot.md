@@ -2,58 +2,58 @@
 
 ## Leitura Obrigatória
 
-ntrboot refers to the ability for all 3DS family consoles to boot into a special, recovery-mode cartridge to perform actions before any other part of the operating system loads. It is commonly used for data recovery and unbricking, but can also be used to install boot9strap, a custom firmware loader.
+ntrboot refere-se à capacidade de todos os consoles da família 3DS de inicializar em um cartucho especial de recuperação para executar ações antes que qualquer outra parte do sistema operacional carregue. É comumente usado para recuperação de dados e unbricking, mas também pode ser usado para instalar o boot9strap, um loader de custom firmware.
 
-To use ntrboot, a compatible cartridge (normally a 'flashcart') is required. Many flashcarts from the NDS or DSi era can be repurposed for ntrboot, while new ones can be purchased for roughly $20 USD.
+Para usar ntrboot, é necessário um cartucho compatível (normalmente um 'flashcart'). Muitos flashcarts da era NDS ou DSi podem ser reutilizados para ntrboot, enquanto novos podem ser comprados por cerca de $20 USD.
 
-No matter how you run ntrboot, you will need a small **magnet** that is strong enough to to put the console into sleep mode (except on the Old 2DS, which uses a sleep switch). Para testar se um ímã vai funcionar, segure-o em cima ou ao redor dos botões (A)(B)(X)(Y) enquanto o console está ligado para ver se ele ativa o modo de descanso. Caso aconteça, ambas as telas ficarão pretas enquanto o ímã é mantido nesse ponto.
+Não importa como você execute o ntrboot, você precisará de um pequeno **ímã** que é forte o suficiente para colocar o console em modo de descanso (exceto no Old 2DS, que usa um interruptor de descanso). Para testar se um ímã vai funcionar, segure-o em cima ou ao redor dos botões (A)(B)(X)(Y) enquanto o console está ligado para ver se ele ativa o modo de descanso. Caso aconteça, ambas as telas ficarão pretas enquanto o ímã é mantido nesse ponto.
 
-## Recommended for new purchases
+## Recomendado para novas compras
 
-If you don't already have a flashcart, or if your flashcart is incompatible with ntrboot, it is recommended to purchase one of these.
+Se você ainda não tem um flashcart, ou se seu flashcart é incompatível com ntrboot, é recomendado comprar um desses.
 
-Cartridges may be available for a cheaper price through a local distributor or on AliExpress. For more information, see the [NTRBoot Quick Start Guide](https://www.flashcarts.net/ntrboot-ds-carts?tab=flashable#flashcarts) (in English only).
+Cartuchos podem estar disponíveis por um preço mais barato através de um distribuidor local ou no AliExpress. Para obter mais informações, consulte o [Guia de Início Rápido NTRBoot](https://www.flashcarts.net/ntrboot-ds-carts?tab=flashable#flashcarts) (apenas em inglês).
 
-| Flashcart                                                      |                  Price | Notes                                                                                                                                                                                                                                                                                                                  |
-| -------------------------------------------------------------- | ---------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**DSpico**](https://www.nds-card.com/ProShow.asp?ProID=658)   | $25.99 | **Must be flashed using a computer** (using a microUSB or USB-C cable, depending on the cartridge). This cart needs a microSD card inserted to function for both ntrboot and regular NDS firmware.                                                                  |
-| [**Ace3DS X**](https://www.nds-card.com/ProShow.asp?ProID=575) | $24.99 | **Já vem pré-carregado com ntrboot** (interruptor externo para trocar entre os modos ntrboot ("3DS") e NDS); não configure o ntrboot manualmente. This cart needs a microSD card inserted to function for both ntrboot and regular NDS firmware. |
+| Flashcart                                                      |                      Preço | Adendos                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------------------------------- | -------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**DSpico**](https://www.nds-card.com/ProShow.asp?ProID=658)   | USD $25.99 | **Deve ser feito flash usando um computador** (usando um cabo microUSB ou USB-C, dependendo do cartucho). Este cartucho precisa de um cartão microSD inserido para funcionar tanto para o ntrboot quanto para o firmware normal do NDS.                                                            |
+| [**Ace3DS X**](https://www.nds-card.com/ProShow.asp?ProID=575) |     $24.99 | **Já vem pré-carregado com ntrboot** (interruptor externo para trocar entre os modos ntrboot ("3DS") e NDS); não configure o ntrboot manualmente. Este cartucho precisa de um cartão microSD inserido para funcionar tanto para o ntrboot quanto para o firmware normal do NDS. |
 
 ::: tip
 
-If you have a DSpico, you will need to flash it with an ntrboot-compatible firmware. To do so:
+Se você tem um DSpico, você precisará fazer um flash nele com um firmware compatível com ntrboot. Para fazer isso:
 
-- Download [DSpico_Hybrid_B9S-1.3_GCD.uf2](https://github.com/coderkei/dspico-hybrid-fw/releases/download/1.4/DSpico_Hybrid_B9S-1.3_GCD.uf2)
-- Remove the microSD card from your DSpico
-- Connect the DSpico to your computer using a microUSB or USB-C cable (depending on the cartridge)
-  - A `RPI-RP2` drive should appear on your computer
-- Copy `DSpico_Hybrid_B9S-1.3_GCD.uf2` to the root of the `RPI-RP2` drive (not inside any folder)
-  - The drive should automatically disconnect itself after a few seconds
-- **After the drive has disconnected itself**, disconnect the DSpico from your computer and reinsert the microSD card
-  - The hybrid firmware has been successfully flashed
+- Baixe [DSpico_Hybrid_B9S-1.3_GCD.uf2](https://github.com/coderkei/dspico-hybrid-fw/releases/download/1.4/DSpico_Hybrid_B9S-1.3_GCD.uf2)
+- Retire o cartão microSD do seu DSpico
+- Conecte o DSPico ao seu computador utilizando um cabo microUSB ou USB-C (dependendo do cartucho)
+  - Um armazenamento chamado `RPI-RP2` deve aparecer em seu computador
+- Copie `DSpico_Hybrid_B9S-1.3_GCD.uf2` para a raíz do armazenamento `RPI-RP2` (fora de qualquer pasta)
+  - O armazenamento deve se desconectar automaticamente após alguns segundos
+- **Depois que o armazenamento tenha se desconectado**, desconecte o DSpico de seu computador e reinsira o cartão MicroSD
+  - O firmware híbrido foi instalado com sucesso
     :::
 
 ::: tip
 
-Once your cartridge is flashed with ntrboot, you can continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot)). You can ignore the rest of this page.
+Uma vez que seu cartucho tenha sido feito flash com o ntrboot, você pode continuar em [Instalando boot9strap (ntrboot)](installing-boot9strap-(ntrboot)). Você pode ignorar o restante desta página.
 
 :::
 
-## Other Flashcarts
+## Outros Flashcarts
 
-If you already have a flashcart that _isn't_ a DSpico or Ace3DS X, you can check this list to see if it can be flashed with ntrboot.
+Se você já tem um flashcart que _não é_ um DSpico ou Ace3DS X, você pode verificar nessa lista se ele pode ser feito flash com ntrboot.
 
 Enquanto o exploit do ntrboot funciona independentemente da versão do sistema, o ntrboot flasher (o qual instala o exploit no flashcart) não. Isso significa que, dependendo das versões e consoles suportados pelo seu flashcart, apenas certos métodos podem estar disponíveis para você.
 
 Observe que cartões com "Time Bomb" não poderão mais executar arquivos '.nds' quando detectarem que o horário do sistema passou a data determinada pelo firmware do flashcart. Um método de contornar isto é ajustar o relógio do sistema para uma data anterior.
 
-| Flashcart                                                                                                                    |                  Price |                         "Time Bomb"?                         |                                Versões do 3DS?                                |                          Versões do DSi?                          | Outras notas                                                                                                                                                                                                              |
+| Flashcart                                                                                                                    |                  Preço |                         "Time Bomb"?                         |                                Versões do 3DS?                                |                          Versões do DSi?                          | Outras notas                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------: | :----------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**R4i-SDHC B9S** (r4i-sdhc.com)](https://www.nds-card.com/ProShow.asp?ProID=574)         |        Fora de Estoque |                     3 de Setembro de 2024                    |                                     TODAS                                     |                               TODAS                               | **Já vem pré-carregado com ntrboot**; pode ser configurado de volta para um flashcart NDS.                                                                                                                |
 | [**DSTT** (ndstt.com)](https://www.nds-card.com/ProShow.asp?ProID=157)                    | $19.99 |                              Não                             |                                    Nenhuma                                    |                              Nenhuma                              | Apenas modelos com [certos flash chips](https://gist.github.com/aspargas2/fa2a70aed3a7fe33f1f10bc264d9fab6) são compatíveis com ntrboot.                                                                  |
 | [**R4i-SDHC 3DS RTS** (r4i-sdhc.com)](https://www.nds-card.com/ProShow.asp?ProID=146)     | $20.99 | 1.85b: 3 de Setembro de 2024 |                                     TODAS                                     |                               TODAS                               |                                                                                                                                                                                                                           |
 | [**R4iSDHC GOLD Pro 20XX** (r4isdhc.com)](https://www.nds-card.com/ProShow.asp?ProID=490) | $22.99 |  4.0b: 3 de Setembro de 2024 |                                     TODAS                                     |                               TODAS                               | Apenas flashcarts do r4isdhc **.com** marcados com o ano de 2014 ou posterior são compatíveis.                                                                                            |
-| **Ace3DS Plus**                                                                                                              |                        |                              Não                             |                                     TODAS                                     |                               TODAS                               | This cart needs a microSD card inserted to function for both ntrboot and regular NDS firmware.                                                                                                            |
+| **Ace3DS Plus**                                                                                                              |                        |                              Não                             |                                     TODAS                                     |                               TODAS                               | Este cartucho precisa de um cartão microSD inserido para funcionar tanto para o ntrboot quanto para o firmware normal do NDS.                                                                             |
 | **Acekard 2i**                                                                                                               |                        |                              Não                             |       <= 4.3.0       | <= 1.4.4 |                                                                                                                                                                                                                           |
 | **Gateway Blue**                                                                                                             |                        |                              Não                             | 4.1.0 - 4.5.0 |                               TODAS                               |                                                                                                                                                                                                                           |
 | **Infinity 3 R4i** (r4infinity.com)                                                       |                        |                              Não                             |                                     TODAS                                     |                               TODAS                               |                                                                                                                                                                                                                           |

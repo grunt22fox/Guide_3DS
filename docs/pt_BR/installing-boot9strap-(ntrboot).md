@@ -14,7 +14,7 @@ Para usar os links do [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) nes
 
 ::: warning
 
-If you are using a **DSpico** or an **Ace3DS X**, ensure that you have a blank microSD card inserted into its microSD card slot. You do not need to put any files onto this microSD card; these cartridges require a microSD card to be inserted in order to trigger ntrboot.
+Se você estiver usando um **DSpico** ou um **Ace3DS X**, certifique-se de que você tem um cartão microSD vazio inserido no slot de cartão microSD. Você não precisa colocar nenhum arquivo neste cartão microSD; estes cartuchos requerem que um cartão microSD esteja inserido para ativar o ntrboot.
 
 :::
 
@@ -50,7 +50,7 @@ If you are using a **DSpico** or an **Ace3DS X**, ensure that you have a blank m
    - Essa etapa não é necessária no Old 2DS (que contém um interruptor para o modo de descanso)
 2. Desligue seu console
 3. Insira o seu flashcart no seu console
-4. Place the magnet near the (A)(B)(X)(Y) buttons on your console to trigger the sleep sensor
+4. Coloque o ímã perto dos botões (A)(B)(X)(Y) no seu console para ativar o sensor de descanso
    - No Old 2DS, em vez disso, você deve ativar o interruptor do modo de descanso
 5. Segure os botões (Start) + (Select) + (X) + (Power) por muitos segundos, então solte os botões
    - Isso pode levar algumas tentativas para funcionar, porque o posicionamento é estranho
@@ -93,9 +93,9 @@ Essa é uma seção opcional que permitirá você restaurar o seu flashcart ao s
 
 ::: warning
 
-**DSpico users** do not need to follow this section, as the hybrid firmware works for both ntrboot and normal flashcart use.
+**Usuários de DSpico** não precisam seguir esta seção, pois o firmware híbrido funciona tanto para o uso do flashcart como do ntrboot normal.
 
-**Ace3DS X users** can flip the switch on the cartridge the other way to return to normal flashcart mode.
+**Usuários do Ace3DS X** podem virar a chave no cartucho para a outra direção para retornar ao modo normal de flashcart.
 
 :::
 
@@ -103,7 +103,7 @@ Observe que o Acekard 2i mantém sua capacidade de executar arquivos '.nds' tend
 
 Não siga esta seção até completar o resto das instruções nesta página.
 
-### Section V (optional) - Removing ntrboot
+### Seção V (opcional) - Removendo o ntrboot
 
 #### O que é necessário
 

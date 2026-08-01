@@ -1,6 +1,6 @@
 ::: info
 
-If the script found no user tickets, skip to Step 9 of this section to run faketik.
+Εάν το script δεν βρήκε κανένα ticket χρήστη, μεταβείτε στο Βήμα 9 αυτής της ενότητας για να εκτελέσετε το faketik.
 
 :::
 

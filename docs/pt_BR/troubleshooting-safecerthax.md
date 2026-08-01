@@ -14,7 +14,7 @@ Esta página oferece recursos de solução de problemas para problemas com a pá
 
 ::: tip
 
-Voltar para [Instalando boot9strap (safecerthax)](installing-boot9strap-\(safecerthax\))
+Voltar para [Instalando boot9strap (safecerthax)](installing-boot9strap-(safecerthax))
 
 :::
 

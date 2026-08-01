@@ -10,13 +10,13 @@
 
 ::: warning
 
-Esta página requer um computador rodando Windows, Linux ou macOS. Se você tem um celular/tablet Android ou um Chromebook, siga [Instalando boot9strap (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\)) em vez disso. Se você tem um iPhone ou iPad, siga [Instalando boot9strap (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\)) em vez disso. Se você não tiver acesso a nenhum desses dispositivos, será necessário usar um [método alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
+Esta página requer um computador rodando Windows, Linux ou macOS. Se você tem um celular/tablet Android ou um Chromebook, siga [Instalando boot9strap (MSET9 Play Store)](installing-boot9strap-(mset9-play-store)) em vez disso. Se você tem um iPhone ou iPad, siga [Instalando boot9strap (MSET9 CLI iOS)](installing-boot9strap-(mset9-cli-ios)) em vez disso. Se você não tiver acesso a nenhum desses dispositivos, será necessário usar um [método alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
 
 :::
 
 ::: info
 
-Se você estiver usando um dispositivo Android como um adaptador de cartão SD para o seu computador, não será capaz de seguir esta página devido a incompatibilidades com o protocolo de transferência de arquivos do Android (MTP). Se este for o caso, siga [Instalando boot9strap (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\)) em vez disso.
+Se você estiver usando um dispositivo Android como um adaptador de cartão SD para o seu computador, não será capaz de seguir esta página devido a incompatibilidades com o protocolo de transferência de arquivos do Android (MTP). Se este for o caso, siga [Instalando boot9strap (MSET9 Play Store)](installing-boot9strap-(mset9-play-store)) em vez disso.
 
 :::
 

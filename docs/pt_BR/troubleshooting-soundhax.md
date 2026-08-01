@@ -1,13 +1,5 @@
 ---
-head:
-  [
-    [ 'script', { src: '/assets/js/common.js' } ],
-    [
-        'script',
-        { src: '/assets/js/soundhax-frankenfirm-link.js' }
-      ],
-    [ 'script', { src: '/assets/js/link-common.js' } ]
-  ]
+head: [ [ 'script', { src: '/assets/js/common.js' } ], [ 'script', { src: '/assets/js/soundhax-frankenfirm-link.js' } ], [ 'script', { src: '/assets/js/link-common.js' } ] ]
 ---
 
 # Troubleshooting (Soundhax)
@@ -64,7 +56,7 @@ Se isso falhar, tente usar outro cartão SD.
 
 ::: tip
 
-Voltar para [Instalando boot9strap (Soundhax)](installing-boot9strap-\(soundhax\))
+Voltar para [Instalando boot9strap (Soundhax)](installing-boot9strap-(soundhax))
 
 :::
 

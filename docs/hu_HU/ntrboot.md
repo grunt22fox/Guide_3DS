@@ -2,58 +2,58 @@
 
 ## Kötelező olvasmány
 
-ntrboot refers to the ability for all 3DS family consoles to boot into a special, recovery-mode cartridge to perform actions before any other part of the operating system loads. It is commonly used for data recovery and unbricking, but can also be used to install boot9strap, a custom firmware loader.
+Az ntrboot a 3DS család konzoljainak azon képessége, hogy egy speciális, visszaállítási cartridge-be bootoljanak, hogy műveleteket hajthass végre mielőtt az operációs rendszer többi része betölt. Ez gyakran használt helyreállításra és brick megszüntetésére, de használható a boot9strap, egy egyedi firwware loader telepítésére.
 
-To use ntrboot, a compatible cartridge (normally a 'flashcart') is required. Many flashcarts from the NDS or DSi era can be repurposed for ntrboot, while new ones can be purchased for roughly $20 USD.
+Az ntrboot használatához egy kompatiblis cartridge (általában egy 'flashcart') szükséges. Sok flashcart az NDS és DSi korszakból módosítható az ntrboot-hoz, míg az újak körülbelül $20 USD-ért megvásárolhatók.
 
-No matter how you run ntrboot, you will need a small **magnet** that is strong enough to to put the console into sleep mode (except on the Old 2DS, which uses a sleep switch). Kipróbálhatod, hogy működik-e a mágnes úgy, hogy az (A), (B), (X), (Y) gombok környékére teszed, miközben a konzol be van kapcsolva, így látod, hogy előidézi-e az alvó állapotot. Ha sikerült, mindkét képernyő elsötétül, és úgy is marad, amíg a mágnest a helyén tartod.
+Nem számít, hogyan futtatod az ntrboot-ot, szükséged lesz egy kis **mágnesre** ami elég erős, hogy a konzolt alvó módba rakja (kivéve az Old 2DS-eket, ami az alvás kapcsolót használja). Kipróbálhatod, hogy működik-e a mágnes úgy, hogy az (A), (B), (X), (Y) gombok környékére teszed, miközben a konzol be van kapcsolva, így látod, hogy előidézi-e az alvó állapotot. Ha sikerült, mindkét képernyő elsötétül, és úgy is marad, amíg a mágnest a helyén tartod.
 
-## Recommended for new purchases
+## Ajánlott új vásárlásokhoz
 
-If you don't already have a flashcart, or if your flashcart is incompatible with ntrboot, it is recommended to purchase one of these.
+Ha még nincs flashcartod vagy a flashcartod inkompatibilis az ntrboot-tal, ajánlott ezek valamelyikét vásárolnod.
 
-Cartridges may be available for a cheaper price through a local distributor or on AliExpress. For more information, see the [NTRBoot Quick Start Guide](https://www.flashcarts.net/ntrboot-ds-carts?tab=flashable#flashcarts) (in English only).
+A cartridge-ek elképzelhető hogy elérhetők olcsóbban egy helyi eladótól vagy az AliExpress-en. További információkért tekintsd meg az [NTRBoot Quick Start Guide](https://www.flashcarts.net/ntrboot-ds-carts?tab=flashable#flashcarts)-ot (csak angolul).
 
-| Flashcart                                                      |                  Price | Notes                                                                                                                                                                                                                                                                                                       |
-| -------------------------------------------------------------- | ---------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**DSpico**](https://www.nds-card.com/ProShow.asp?ProID=658)   | $25.99 | **Must be flashed using a computer** (using a microUSB or USB-C cable, depending on the cartridge). This cart needs a microSD card inserted to function for both ntrboot and regular NDS firmware.                                                       |
-| [**Ace3DS X**](https://www.nds-card.com/ProShow.asp?ProID=575) | $24.99 | **ntrboot-tal gyárilag flashelve** (külső kapcsolóval váltogatható az ntrboot ("3DS") és az NDS mód); ne flasheld kézileg ntrboot-tal. This cart needs a microSD card inserted to function for both ntrboot and regular NDS firmware. |
+| Flashcart                                                      |                     Ár | Megjegyzések                                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------------------------------- | ---------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**DSpico**](https://www.nds-card.com/ProShow.asp?ProID=658)   | $25.99 | **Számítógéppel kell flashelni** (egy microUSB vagy USB-C kábel használatával, függően a cartridge-től). Ez a kártya egy microSD kártyát igényel behelyezve, hogy egyaránt működjön ntrboot-tal és hagyományos NDS firmware-rel.                                             |
+| [**Ace3DS X**](https://www.nds-card.com/ProShow.asp?ProID=575) | $24.99 | **ntrboot-tal gyárilag flashelve** (külső kapcsolóval váltogatható az ntrboot ("3DS") és az NDS mód); ne flasheld kézileg ntrboot-tal. Ez a kártya egy SD kártyát igényel behelyezve, hogy egyaránt működjön ntrboot-tal és hagyományos NDS firmware-rel. |
 
 ::: tip
 
-If you have a DSpico, you will need to flash it with an ntrboot-compatible firmware. To do so:
+Ha DSpico-d van, flashelned kell egy ntrboot-kompatibilis firmware-rel. Ezt kell tenned:
 
-- Download [DSpico_Hybrid_B9S-1.3_GCD.uf2](https://github.com/coderkei/dspico-hybrid-fw/releases/download/1.4/DSpico_Hybrid_B9S-1.3_GCD.uf2)
-- Remove the microSD card from your DSpico
-- Connect the DSpico to your computer using a microUSB or USB-C cable (depending on the cartridge)
-  - A `RPI-RP2` drive should appear on your computer
-- Copy `DSpico_Hybrid_B9S-1.3_GCD.uf2` to the root of the `RPI-RP2` drive (not inside any folder)
-  - The drive should automatically disconnect itself after a few seconds
-- **After the drive has disconnected itself**, disconnect the DSpico from your computer and reinsert the microSD card
-  - The hybrid firmware has been successfully flashed
+- Töltsd le a [DSpico_Hybrid_B9S-1.3_GCD.uf2](https://github.com/coderkei/dspico-hybrid-fw/releases/download/1.4/DSpico_Hybrid_B9S-1.3_GCD.uf2) fájlt
+- Vedd ki az SD kártyát a DSpico-dból
+- Csatlakoztasd a DSpico-t a számítógépedhez microUSB vagy USB-C kábellel (függ a cartridge-től)
+  - Egy `RPI-RP2` meghajtónak meg kell jelennie a számítógépeden
+- Másold a `DSpico_Hybrid_B9S-1.3_GCD.uf2` fájlt az `RPI-RP2` meghajtó gyökerébe (nem egy mappába)
+  - A meghajtónak le kell csatlakoznia ez után pár másodperccel
+- **Miután a meghajtó lecsatlakoztatta magát**, húzd ki a DSpico-t a számítógépedből, és helyezd bele újra a microSD kártyát
+  - A hibrid firmware sikeresen flashelve
     :::
 
 ::: tip
 
-Once your cartridge is flashed with ntrboot, you can continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot)). You can ignore the rest of this page.
+Ha az eszközöd ntrboot-ra flashelt, folytathatod a [boot9strap (ntrboot) telepítésével](installing-boot9strap-(ntrboot)). Figyelmen kívül hagyhatod az oldal további részét.
 
 :::
 
-## Other Flashcarts
+## Egyéb flashcartok
 
-If you already have a flashcart that _isn't_ a DSpico or Ace3DS X, you can check this list to see if it can be flashed with ntrboot.
+Ha már van egy flashcartod, ami _nem_ DSpico vagy Ace3DS X, megnézhető ebben a listában, hoggy flashelhető a ntrboot-tal.
 
 Míg az ntrboot exploit működése nem függ a rendszerverziótól, az ntrboot flashelő (ami az exploitot a kártyára telepíti) igen. Ez azt jelenti, hogy attól függően, hogy a flashkártyád milyen verziókat és konzolokat támogat, csak bizonyos módszerek lehetnek elérhetőek számodra.
 
 Vedd figyelembe, hogy a "Time Bomb"-bal rendelkező kártyák nem lesznek képesek `.nds` fájlok futtatására, ha észlelik, hogy a rendszeridő meghaladja a flashkártya firmware-je által meghatározott értéket. Ennek megkerülésére az egyik módszer a rendszeridő korábbi dátumra állítása.
 
-| Flashcart                                                                                                                    |                  Price |                                "Időbomba"?                                |                                  3DS verziók?                                 |                            DSi verziók?                           | Megjegyzések                                                                                                                                                                                                |
+| Flashcart                                                                                                                    |                     Ár |                                "Időbomba"?                                |                                  3DS verziók?                                 |                            DSi verziók?                           | Megjegyzések                                                                                                                                                                                                |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------: | :-----------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**R4i-SDHC B9S** (r4i-sdhc.com)](https://www.nds-card.com/ProShow.asp?ProID=574)         |        Nincs készleten |                     2024 szeptember 3.                    |                                      MIND                                     |                                MIND                               | **Előflashelt ntrboot-tal érkezik**; visszaflashelhető NDS flashkártyára.                                                                                                                   |
 | [**DSTT** (ndstt.com)](https://www.nds-card.com/ProShow.asp?ProID=157)                    | $19.99 |                                    Nem                                    |                                     Nincs                                     |                               Nincs                               | Csak [bizonyos flash chipek](https://gist.github.com/aspargas2/fa2a70aed3a7fe33f1f10bc264d9fab6) kompatibilisek az ntrboot-tal.                                                             |
 | [**R4i-SDHC 3DS RTS** (r4i-sdhc.com)](https://www.nds-card.com/ProShow.asp?ProID=146)     | $20.99 | 1.85b: 2024 szeptember 3. |                                      MIND                                     |                                MIND                               |                                                                                                                                                                                                             |
 | [**R4iSDHC GOLD Pro 20XX** (r4isdhc.com)](https://www.nds-card.com/ProShow.asp?ProID=490) | $22.99 |  4.0b: 2024 szeptember 3. |                                      MIND                                     |                                MIND                               | Csak a 2014 vagy későbbi r4isdhc **.com** kártyák, amik kompatibilisek.                                                                                                     |
-| **Ace3DS Plus**                                                                                                              |                        |                                    Nem                                    |                                      MIND                                     |                                MIND                               | This cart needs a microSD card inserted to function for both ntrboot and regular NDS firmware.                                                                                              |
+| **Ace3DS Plus**                                                                                                              |                        |                                    Nem                                    |                                      MIND                                     |                                MIND                               | Ez a kártya egy SD kártyát igényel behelyezve, hogy egyaránt működjön ntrboot-tal és hagyományos NDS firmware-rel.                                                                          |
 | **Acekard 2i**                                                                                                               |                        |                                    Nem                                    |       <= 4.3.0       | <= 1.4.4 |                                                                                                                                                                                                             |
 | **Gateway Blue**                                                                                                             |                        |                                    Nem                                    | 4.1.0 - 4.5.0 |                                MIND                               |                                                                                                                                                                                                             |
 | **Infinity 3 R4i** (r4infinity.com)                                                       |                        |                                    Nem                                    |                                      MIND                                     |                                MIND                               |                                                                                                                                                                                                             |

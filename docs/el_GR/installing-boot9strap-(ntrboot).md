@@ -14,7 +14,7 @@
 
 ::: warning
 
-If you are using a **DSpico** or an **Ace3DS X**, ensure that you have a blank microSD card inserted into its microSD card slot. You do not need to put any files onto this microSD card; these cartridges require a microSD card to be inserted in order to trigger ntrboot.
+Εάν χρησιμοποιείτε μια **DSpico** ή **Ace3DS X**, βεβαιωθείτε ότι έχετε τοποθετήσει μια κενή κάρτα microSD στην αντίστοιχη υποδοχή της flashcart. Δεν χρειάζεται να τοποθετήσετε κανένα αρχείο σε αυτήν την κάρτα microSD· αυτές οι κασέτες απαιτούν μια κάρτα microSD για να ενεργοποιήσουν το ntrboot.
 
 :::
 
@@ -50,7 +50,7 @@ If you are using a **DSpico** or an **Ace3DS X**, ensure that you have a blank m
    - Αυτό το βήμα δεν απαιτείται για το Old 2DS (το οποίο διαθέτει έναν διακόπτη λειτουργίας ύπνου)
 2. Απενεργοποιήστε την κονσόλα σας
 3. Εισαγάγετε τη flashcart σας στην κονσόλα σας
-4. Place the magnet near the (A)(B)(X)(Y) buttons on your console to trigger the sleep sensor
+4. Τοποθετήστε τον μαγνήτη κοντά στα κουμπιά (A)(B)(X)(Y) στην κονσόλα σας για να ενεργοποιήσετε τον αισθητήρα ύπνου
    - Στο Old 2DS, θα πρέπει να ενεργοποιήσετε τον διακόπτη λειτουργίας ύπνου
 5. Κρατήστε πατημένα τα (Start) + (Select) + (X) + (Κουμπί ισχύος) για αρκετά δευτερόλεπτα και έπειτα, αφήστε τα κουμπιά
    - Ενδέχεται να χρειαστούν μερικές προσπάθειες για να εκτελεστεί αυτό το βήμα, εξαιτίας της θέσης των κουμπιών
@@ -93,9 +93,9 @@ ___
 
 ::: warning
 
-**DSpico users** do not need to follow this section, as the hybrid firmware works for both ntrboot and normal flashcart use.
+Οι **χρήστες των DSpico** δεν χρειάζεται να ακολουθήσουν τα βήματα αυτής της ενότητας, καθώς το υβριδικό firmware λειτουργεί τόσο για το ntrboot όσο και για κανονική χρήση ως flashcart.
 
-**Ace3DS X users** can flip the switch on the cartridge the other way to return to normal flashcart mode.
+Οι **χρήστες του Ace3DS X** μπορούν να γυρίσουν τον διακόπτη της κασέτας στην άλλη πλευρά για να επιστρέψουν στην κανονική λειτουργία ως flashcart.
 
 :::
 
@@ -103,7 +103,7 @@ ___
 
 Μην ακολουθήσετε αυτήν την ενότητα μέχρι να ολοκληρώσετε τις υπόλοιπες οδηγίες αυτής της σελίδας.
 
-### Section V (optional) - Removing ntrboot
+### Ενότητα V (προαιρετικά) - Αφαίρεση του ntrboot
 
 #### Τι χρειάζεστε
 

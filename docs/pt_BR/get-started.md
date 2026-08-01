@@ -4,11 +4,7 @@ invalidVersion: Esta não parece ser uma versão válida de sistema.
 cfwPrefixDetected: Seu console pode já ter o custom firmware instalado. Por favor repita a Seção I. Se você ainda só chega ao menu HOME, clique no link abaixo e peça ajuda, em inglês.
 inviteLinkText: Nintendo Homebrew no Discord
 otherPrefix: (Outro)
-head:
-  [
-    [ 'script', { src: '/assets/js/common.js' } ],
-    [ 'script', { src: '/assets/js/selecting.js' } ]
-  ]
+head: [ [ 'script', { src: '/assets/js/common.js' } ], [ 'script', { src: '/assets/js/selecting.js' } ] ]
 ---
 
 # Começando
@@ -18,7 +14,7 @@ Antes de iniciar este guia, veremos se o custom firmware já está instalado e v
 ### Seção I - Checando por CFW
 
 1. Desligue seu console
-2. Insert your SD card into your console
+2. Insira seu cartão SD no seu console
 3. Segure o botão (Select)
 4. Ligue o seu console enquanto ainda segura o botão (Select)
 5. Se você não ver um menu personalizado (seu console apenas inicia no Menu HOME), você pode prosseguir para a próxima seção
@@ -31,7 +27,7 @@ Se você ver a tela de configuração do Luma3DS ou qualquer outro menu personal
 
 ::: warning
 
-If, when the console boots to the HOME Menu, you see the error "Could not detect an SD card", ensure that your SD card is properly formatted: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\))
+Se, quando o console inicia para o Menu HOME, você vê o erro "Não foi possível detectar um cartão SD", certifique-se de que o seu cartão SD esteja formatado corretamente: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))
 
 :::
 
@@ -55,4 +51,4 @@ Se possível, você deve seguir o método fornecido pelo prompt acima.
 Caso contrário, métodos que funcionam em todas as versões estão disponíveis, mas requerem hardware adicional:
 
 1. [ntrboot](ntrboot) - requer um flashcart de DS compatível
-2. [Instalando boot9strap (Hardmod)](installing-boot9strap-\(hardmod\)) - requer soldagem
+2. [Instalando boot9strap (Hardmod)](installing-boot9strap-(hardmod)) - requer soldagem

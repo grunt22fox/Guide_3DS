@@ -33,7 +33,7 @@ Nesta seção, você verá se seus botões de gatilho estão funcionando no cons
 
 ::: warning
 
-Se a câmera NÃO aparecer, você não pode seguir este método. Se este for o caso, use [Instalando boot9strap (MSET9)](installing-boot9strap-\(mset9\)) ao invés disso.
+Se a câmera NÃO aparecer, você não pode seguir este método. Se este for o caso, use [Instalando boot9strap (MSET9)](installing-boot9strap-(mset9)) ao invés disso.
 
 :::
 

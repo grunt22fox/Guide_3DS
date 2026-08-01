@@ -1,6 +1,6 @@
 ::: info
 
-If the script found no user tickets, skip to Step 9 of this section to run faketik.
+Ha a szkript nem talált egy felhasználói ticketet sem, ugorj a IX. részre a faketik-hez.
 
 :::
 
