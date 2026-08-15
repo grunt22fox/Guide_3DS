@@ -10,52 +10,9 @@ Cette section est dédiée aux utilisateurs de Windows uniquement. Si vous n'uti
 
 ## Ce dont vous avez besoin
 
-- **Pour toutes les tailles de carte SD**: La dernière version de [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-- **Pour les cartes SD de 64 Go ou plus uniquement :** la dernière version de [guiformat](https://nintendohomebrew.com/guiformat)
+- The latest version of [guiformat](https://nintendohomebrew.com/guiformat)
 
 ## Instructions
-
-### Section I - SD Card Formatter
-
-1. Insérez votre carte SD dans votre ordinateur
-
-2. Si la carte SD contient des fichiers ou des dossiers, copiez tout le contenu dans un dossier de votre ordinateur
-
-3. Lancez `SD Card Formatter Setup` (le fichier `.exe`) présent dans le fichier `.zip` téléchargé en tant qu'administrateur, puis installez le programme
-
-4. Lancez `SD Card Formatter` depuis le Menu Démarrer
-
-5. Sélectionnez la lettre de lecteur de votre carte SD dans le champ "Select card"
-
-   ::: danger
-
-   Assurez-vous de choisir la bonne lettre de lecteur, sinon vous risquez d'effacer accidentellement le mauvais lecteur !
-
-   :::
-
-6. Mettez ce que vous voulez dans "Volume label"
-
-7. Assurez-vous que "Quick Format" est sélectionné
-
-8. Cliquez sur "Format"
-
-9. Cliquez sur "OK"
-
-10. Attendez que le formatage se termine
-
-11. Cliquez sur "OK"
-
-12. Fermez SD Card Formatter
-
-13. Si la carte SD est de 32 Go ou moins et qu'elle contenait des fichiers et des dossiers avant le formatage, recopiez les dessus depuis votre ordinateur
-
-::: info
-
-Vous avez fini de formater votre carte SD si elle est de **32 Go ou moins.**
-
-:::
-
-### Section II - guiformat (UNIQUEMENT pour 64 Go ou plus)
 
 1. Lancez `guiformat.exe`
 
@@ -63,7 +20,7 @@ Vous avez fini de formater votre carte SD si elle est de **32 Go ou moins.**
 
    ::: danger
 
-   Assurez-vous de choisir la bonne lettre de lecteur, sinon vous risqueriez d'effacer accidentellement le mauvais lecteur !
+   Assurez-vous de choisir la bonne lettre de lecteur, sinon vous risquez d'effacer accidentellement le mauvais lecteur !
 
    :::
 

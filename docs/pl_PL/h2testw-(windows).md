@@ -6,7 +6,7 @@ To jest sekcja dodatkowa poświęcona sprawdzeniu błędów na twojej karcie SD 
 
 W zależności od wielkości karty SD i szybkości komputera, proces ten może potrwać nawet kilka godzin!
 
-Ta strona dotyczy tylko użytkowników systemu Windows. If you are not on windows, check out the [F3 (Linux)](f3-\(linux\)) or [F3XSwift (Mac)](f3xswift-\(mac\)) pages.
+Ta strona dotyczy tylko użytkowników systemu Windows. If you are not on windows, check out the [F3 (Linux)](f3-(linux)) or [F3XSwift (Mac)](f3xswift-(mac)) pages.
 
 ## What You Need
 

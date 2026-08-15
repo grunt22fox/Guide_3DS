@@ -10,52 +10,9 @@ Ez az oldal Windows felhasználókra vonatkozik. Ha nem Windows rendszeren vagy,
 
 ## Amire szükséged lesz
 
-- **Minden SD kártya méret esetén:** Az [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/) legfrissebb verziója
-- **64GB vagy nagyobb SD kártya esetén:** A [guiformat](https://nintendohomebrew.com/guiformat) legfrissebb verziója
+- The latest version of [guiformat](https://nintendohomebrew.com/guiformat)
 
 ## Lépések
-
-### I. rész - SD Card Formatter
-
-1. Helyezd az SD kártyád a számítógépbe
-
-2. Ha az SD kártya tartalmaz adatot, akkor azokat másold át a számítógépre
-
-3. Futtasd az `SD Card Formatter Setup`-ot (az `.exe` fájlt) a letöltött `.zip` fájlból rendszergazda joggal a program telepítéséhez
-
-4. Futtasd az `SD Card Formatter`-t a Start menüből
-
-5. Válaszd ki az SD kártyád betűjelét a "Select card"-nál
-
-   ::: danger
-
-   Legyél biztos abban, hogy a jó meghajtó betűt választod, egyébként rossz merevlemezt törölhetsz!
-
-   :::
-
-6. Írj be valamit "Volume label"-nek
-
-7. Ügyelj rá, hogy a "Quick Format" ki legyen választva
-
-8. Kattints a "Format"-ra
-
-9. Kattints az "OK"-ra
-
-10. Várd meg amíg a formázás befejeződik
-
-11. Kattints az "OK"-ra
-
-12. Zárd be az SD Card Formatter-t
-
-13. Ha az SD kártya 32GB vagy kisebb és tartalmazott adatot a formázás előtt, akkor azokat most másold vissza a számítógépről
-
-::: info
-
-Végeztél az SD kártyád formázásával ha az **32GB vagy kisebb.**
-
-:::
-
-### II. rész - guiformat (CSAK 64GB vagy nagyobbhoz)
 
 1. Futtasd a `guiformat.exe` alkalmazást
 

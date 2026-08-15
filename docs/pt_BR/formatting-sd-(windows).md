@@ -10,52 +10,9 @@ Esta página é destinada apenas a usuários do Windows. Caso você não esteja 
 
 ## O que é necessário
 
-- **Para todos os tamanhos de cartão SD**: A versão mais recente do [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-- **Apenas para cartões SD de 64GB ou mais:** A versão mais recente do [guiformat](https://nintendohomebrew.com/guiformat)
+- The latest version of [guiformat](https://nintendohomebrew.com/guiformat)
 
 ## Instruções
-
-### Seção I - SD Card Formatter
-
-1. Insira o cartão SD no seu computador
-
-2. Se o cartão SD tiver quaisquer arquivos ou pastas nele, copie tudo para uma pasta no seu computador
-
-3. Execute `SD Card Formatter Setup` (o arquivo `.exe`) no arquivo `.zip` baixado com privilégios de administrador, e instale o programa
-
-4. Execute o `SD Card Formatter` do Menu Inicial
-
-5. Selecione a letra de unidade do seu cartão SD em "Select card"
-
-   ::: danger
-
-   Certifique-se de escolher a letra da unidade correta, caso contrário você pode apagar a unidade errada acidentalmente!
-
-   :::
-
-6. Digite qualquer coisa para "Volume label"
-
-7. Certifique-se de que "Quick Format" está selecionado
-
-8. Clique em "Format"
-
-9. Clique em "OK"
-
-10. Aguarde a conclusão da formatação
-
-11. Clique em "OK"
-
-12. Feche o SD Card Formatter
-
-13. Se o cartão SD for de 32GB ou menor e possuia quaisquer arquivos e pastas nele antes da formatação, copie tudo de volta do seu computador
-
-::: info
-
-Você acabou de formatar seu cartão SD se ele for **de 32GB ou menor.**
-
-:::
-
-### Seção II - guiformat (APENAS para 64GB ou maior)
 
 1. Execute `guiformat.exe`
 

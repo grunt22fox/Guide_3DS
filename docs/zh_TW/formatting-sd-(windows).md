@@ -10,52 +10,9 @@
 
 ## What You Need
 
-- **For all SD card sizes**: The latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-- **For SD cards 64GB or larger only:** The latest version of [guiformat](https://nintendohomebrew.com/guiformat)
+- The latest version of [guiformat](https://nintendohomebrew.com/guiformat)
 
 ## Instructions
-
-### Section I - SD Card Formatter
-
-1. 將 SD 卡插入至電腦中
-
-2. 如果此 SD 卡中含有任何重要的檔案及資料夾，請在格式化前將這些檔案備份於您的電腦中
-
-3. 解壓下載的 `.zip` 檔案，然後使用管理員權限開啟 `SD Card Formatter Setup`(`.exe` 檔案)，按照提示安裝程式
-
-4. 在開始選單中找到 `SD Card Formatter`，並將其開啟
-
-5. 在『Select card』中選擇您的 SD 卡磁碟代號
-
-   ::: danger
-
-   請確保您選擇的裝置是您的 SD 卡，否則您可能會不小心格式化錯的磁碟！
-
-   :::
-
-6. 如有需要，請為您的 SD 卡輸入新名稱
-
-7. 請勾選『Quick Format』
-
-8. 點選『Format』
-
-9. 點選『OK』
-
-10. 等待格式化完成
-
-11. 點選『OK』
-
-12. 關閉 SD Card Formatter
-
-13. If the SD card is 32GB or smaller and had any files and folders on it before the format, copy everything back from your computer
-
-::: info
-
-You're done formatting your SD card if it's **32GB or smaller.**
-
-:::
-
-### Section II - guiformat (ONLY for 64GB or larger)
 
 1. Run `guiformat.exe`
 
