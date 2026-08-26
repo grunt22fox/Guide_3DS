@@ -6,56 +6,13 @@ Dit is een extra sectie voor het formatteren van een SD-kaart om deze te doen we
 
 Als de 3DS de SD kaart al herkent, is deze handleiding niet nodig.
 
-Deze pagina is alleen voor windows-gebruikers. Als je geen Windows gebruikt, bekijk dan de [SD formatteren (Linux)](formatting-sd-\(linux\)) of [SD formatteren (Mac)](formatting-sd-\(mac\)) pagina's.
+Deze pagina is alleen voor windows-gebruikers. Als je geen Windows gebruikt, bekijk dan de [SD formatteren (Linux)](formatting-sd-(linux)) of [SD formatteren (Mac)](formatting-sd-(mac)) pagina's.
 
 ## What You Need
 
-- **For all SD card sizes**: The latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-- **For SD cards 64GB or larger only:** The latest version of [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
+- The latest version of [guiformat](https://nintendohomebrew.com/guiformat)
 
 ## Instructions
-
-### Section I - SD Card Formatter
-
-1. Plaats je SD kaart in je computer
-
-2. Als de SD kaart bestanden en mappen erop heeft, kopieer dan alles naar een map op uw computer
-
-3. Voer `SD Card Formatter Setup` uit (het `.exe` bestand) in het gedownloade `.zip` bestand met adminstrator privileges, installeer vervolgens het programma
-
-4. Voer `SD Card Formatter` uit vanuit het Start Menu
-
-5. Selecteer uw SD kaart stationsletter voor "Select card"
-
-   ::: danger
-
-   Zorg ervoor dat je de juiste stationsletter kiest, anders kan je per ongeluk de verkeerde schijf verwijderen!
-
-   :::
-
-6. Voer iets in voor "Volume label"
-
-7. Zorg ervoor dat "Quick Format" is geselecteerd
-
-8. Klik op "Format"
-
-9. Klik op "OK"
-
-10. Wacht tot het formatteren is voltooid
-
-11. Klik op "OK"
-
-12. Sluit SD Card Formatter
-
-13. If the SD card is 32GB or smaller and had any files and folders on it before the format, copy everything back from your computer
-
-::: info
-
-You're done formatting your SD card if it's **32GB or smaller.**
-
-:::
-
-### Section II - guiformat (ONLY for 64GB or larger)
 
 1. Run `guiformat.exe`
 

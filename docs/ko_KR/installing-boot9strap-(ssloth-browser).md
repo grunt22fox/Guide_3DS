@@ -83,6 +83,7 @@ SSLoth는 시스템 버전 11.13.0 및 이전 버전에 있는 사용자가 브�
 
 4. 익스플로잇이 성공적이었다면 SafeB9SInstaller로 부팅되었을 것입니다
    - 오류가 발생하면 이 [문제 해결 가이드](troubleshooting-ssloth-browser) 를 참고해 주세요
+   - If troubleshooting fails and your console has **only** 2 working shoulder buttons, follow **only Section IV** of [safecerthax](installing-boot9strap-(safecerthax).html#section-iv-safecerthax)
 
 ### 섹션 IV - boot9strap 설치
 

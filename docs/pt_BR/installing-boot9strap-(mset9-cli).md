@@ -10,13 +10,13 @@
 
 ::: warning
 
-Esta página requer um computador rodando Windows, Linux ou macOS. Se você tem um celular/tablet Android ou um Chromebook, siga [Instalando boot9strap (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\)) em vez disso. Se você tem um iPhone ou iPad, siga [Instalando boot9strap (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\)) em vez disso. Se você não tiver acesso a nenhum desses dispositivos, será necessário usar um [método alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
+Esta página requer um computador rodando Windows, Linux ou macOS. Se você tem um celular/tablet Android ou um Chromebook, siga [Instalando boot9strap (MSET9 Play Store)](installing-boot9strap-(mset9-play-store)) em vez disso. Se você tem um iPhone ou iPad, siga [Instalando boot9strap (MSET9 CLI iOS)](installing-boot9strap-(mset9-cli-ios)) em vez disso. Se você não tiver acesso a nenhum desses dispositivos, será necessário usar um [método alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
 
 :::
 
 ::: info
 
-Se você estiver usando um dispositivo Android como um adaptador de cartão SD para o seu computador, não será capaz de seguir esta página devido a incompatibilidades com o protocolo de transferência de arquivos do Android (MTP). Se este for o caso, siga [Instalando boot9strap (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\)) em vez disso.
+Se você estiver usando um dispositivo Android como um adaptador de cartão SD para o seu computador, não será capaz de seguir esta página devido a incompatibilidades com o protocolo de transferência de arquivos do Android (MTP). Se este for o caso, siga [Instalando boot9strap (MSET9 Play Store)](installing-boot9strap-(mset9-play-store)) em vez disso.
 
 :::
 
@@ -167,7 +167,7 @@ NÃO pule esta seção! Se você pular isso, os aplicativos podem ter um crash i
    - Você deve ver "Removed trigger file."
 3. Digite `5` e pressione Enter para remover o MSET9
    - Você deve ver "Successfully removed MSET9!"
-   - If you see "FileNotFoundError: [Errno 2] No such file or directory:" followed by a long file path containing "Nintendo 3DS", [follow the corresponding section of this troubleshooting guide](troubleshooting-mset9#mset9-application-script)
+   - Se você ver "FileNotFoundError: [Errno 2] No such file or directory:" seguido por um longo endereço de arquivo contendo "Nintendo 3DS", [siga a seção correspondente no guia de troubleshooting](troubleshooting-mset9#mset9-application-script)
 4. Pressione Enter para fechar o script MSET9
 
 <!--@include: ./_include/luma3ds-installed-note.md -->

@@ -44,9 +44,22 @@ Na maioria dos casos você pode seguir este guia desde que você consiga baixar 
 
 :::
 
-O local de inserção do cartão SD e tipo de cartão SD aceito dependem do modelo de seu 3DS. Mais informações podem ser encontradas na [página oficial de suporte da Nintendo](https://en-americas-support.nintendo.com/app/answers/detail/a_id/271/~/how-to-insert-an-sd-card-or-microsd-card).
+O local de inserção do cartão SD e tipo de cartão SD aceito dependem do modelo de seu 3DS. Mais informações podem ser encontradas na [página oficial de suporte da Nintendo](https://en-americas-support.nintendo.com/app/answers/detail/a_id/271/~/how-to-insert-an-sd-card-or-microsd-card). Note que em consoles de New 3DS e New 3DS XL, você precisará de uma chave de fenda (JIS 00) para acessar o cartão microSD, localizado sob a placa de fundo.
 
-O 3DS pode ler cartões SD de qualquer capacidade (mesmo os maiores que 32GB), mas o cartão precisa estar formatado como FAT32 (**não** como exFAT ou NTFS). Você pode usar uma das ferramentas a seguir para formatar seu cartão SD, dependendo do seu sistema operacional: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)). Cartões SD maiores que **128GB** não são recomendados devido a problemas conhecidos com temas personalizados e gráficos de GBA/DS.
+Seu cartão (micro)SD deve estar de acordo com os seguintes requisitos:
+
+- **Marca**: Qualquer marca de nome (SanDisk, Samsung, Kingston, Lexar, PNY, etc.)
+  - Cuidado com cartões SD falsos ou ilegítimos (por exemplo, Memory SD, PRO PLUS, SanDian, Extreme Pro), particularmente aqueles comprados de mercados online como AliExpress. Veja [aqui](https://www.flashcarts.net/microsd-fakes) um guia sobre como identificar cartões SD falsos. Usar um cartão SD falso ou ilegítimo muito provavelmente resultará em coisas que não funcionam, ou até mesmo em **perda de dados**!
+- **Capacidade**: entre 2GB e 128GB (inclusivo)
+  - Estes cartões serão rotulados como SD (<=2GB), SDHC (4GB-32GB) ou SDXC (64GB+)
+  - Cartões menores que 2GB são insuficientes devido ao tamanho mínimo de um dump da NAND (cerca de 1GB), que é feito no final deste guia como uma medida de segurança
+  - Cartões de 200GB ou maiores ainda funcionarão, mas não são recomendados devido a possíveis problemas com gráficos em DS/GBA e temas personalizados
+- **Velocidade**: Qualquer
+  - Atualmente, os cartões mais baratos no mercado são os **Classe 10** (por exemplo, SanDisk Ultra). Cartões mais rápidos são aceitáveis, mas o 3DS não pode aproveitar suas velocidades
+- **Formato**: FAT32 com MBR
+  - Cartões que são 32GB ou menores já devem estar formatados dessa forma, enquanto cartões SD maiores terão de ser formatados manualmente: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))
+
+Para consoles que usam um cartão SD de tamanho comum, um cartão microSD em um adaptador de cartão SD funcionará de forma idêntica.
 
 ::: info
 
@@ -54,15 +67,9 @@ O 3DS pode ler cartões SD de qualquer capacidade (mesmo os maiores que 32GB), m
 
 :::
 
-::: warning
-
-Para seguir este guia, você precisará de um cartão SD com capacidade de pelo menos **2GB**.
-
-:::
-
 ::: info
 
-Se você quiser, você pode verificar erros no seu cartão SD antes de seguir este guia usando [H2testw (Windows)](h2testw-\(windows\)), [F3 (Linux)](f3-\(linux\)), ou [F3XSwift (Mac)](f3xswift-\(mac\)).
+Se você quiser, você pode verificar se há erros no seu cartão SD antes de seguir este guia usando [H2testw](h2testw-(windows))/[ValiDrive](https://www.grc.com/validrive.htm) (Windows), [F3 (Linux)](f3-(linux)), ou [F3XSwift (Mac)](f3xswift-(mac)).
 
 :::
 
@@ -144,7 +151,7 @@ Na maioria dos sistemas operacionais, você pode extrair arquivos clicando duas 
 
 ::: warning
 
-O aplicativo para Windows "WinRAR" é conhecido especificamente por causar problemas de compatibilidade com o 3DS, particularmente com a instalação de custom firmware. Se estiver em um computador do Windows, use o Gerenciador de Arquivos padrão ou o 7-zip para extrair arquivos.
+O aplicativo para Windows "WinRAR" é conhecido especificamente por causar problemas de compatibilidade com o 3DS, particularmente com a instalação de custom firmware. Se estiver em um computador com Windows, use o Gerenciador de Arquivos padrão ou o 7-zip para extrair arquivos.
 
 :::
 
@@ -158,7 +165,21 @@ O aplicativo para Windows "WinRAR" é conhecido especificamente por causar probl
 
 :::
 
-Se seu computador for Windows, as extensões do arquivo podem estar ocultas por padrão, o que pode dificultar para achar os arquivos. Para exibir as extensões de arquivos, siga [estas instruções](file-extensions-\(windows\)).
+Se seu computador for Windows, as extensões do arquivo podem estar ocultas por padrão, o que pode dificultar para achar os arquivos. Para exibir as extensões de arquivos, siga [estas instruções](file-extensions-(windows)).
+
+::::
+
+:::: details O que significa "ejetar" um cartão SD?
+
+::: info
+
+![](/images/screenshots/onboarding/eject-windows.png)
+
+:::
+
+Na maioria dos dispositivos, seu gerenciador de arquivos terá um botão de Ejetar (⏏️) para o seu cartão SD. A utilização dessa opção interrompe todas as atividades com segurança e desmonta o cartão para que possa ser removido.
+
+Isto é **muito** importante porque remover o cartão SD enquanto ele estiver em uso pode causar corrupção e afetar negativamente o resultado de exploits ao aplicar mods em seu 3DS.
 
 ::::
 

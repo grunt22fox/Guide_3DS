@@ -1,14 +1,10 @@
 ---
 noneSelected: Modelo do sistema é necessário.
 invalidVersion: Esta não parece ser uma versão válida de sistema.
-cfwPrefixDetected: Your console may already have custom firmware installed. Please retry Section I. If you still only reach the HOME menu, click the link below and ask, in English, for assistance.
-inviteLinkText: Nintendo Homebrew on Discord
+cfwPrefixDetected: Seu console pode já ter o custom firmware instalado. Por favor repita a Seção I. Se você ainda só chega ao menu HOME, clique no link abaixo e peça ajuda, em inglês.
+inviteLinkText: Nintendo Homebrew no Discord
 otherPrefix: (Outro)
-head:
-  [
-    [ 'script', { src: '/assets/js/common.js' } ],
-    [ 'script', { src: '/assets/js/selecting.js' } ]
-  ]
+head: [ [ 'script', { src: '/assets/js/common.js' } ], [ 'script', { src: '/assets/js/selecting.js' } ] ]
 ---
 
 # Começando
@@ -18,13 +14,20 @@ Antes de iniciar este guia, veremos se o custom firmware já está instalado e v
 ### Seção I - Checando por CFW
 
 1. Desligue seu console
-2. Segure o botão (Select)
-3. Ligue o seu console enquanto ainda segura o botão (Select)
-4. Se você não ver um menu personalizado (seu console apenas inicia no Menu HOME), você pode prosseguir para a próxima seção
+2. Insira seu cartão SD no seu console
+3. Segure o botão (Select)
+4. Ligue o seu console enquanto ainda segura o botão (Select)
+5. Se você não ver um menu personalizado (seu console apenas inicia no Menu HOME), você pode prosseguir para a próxima seção
 
 ::: warning
 
 Se você ver a tela de configuração do Luma3DS ou qualquer outro menu personalizado (por exemplo, GodMode9, Decrypt9WIP), PARE - você já tem custom firmware! Continue [daqui](checking-for-cfw#what-to-do-next).
+
+:::
+
+::: warning
+
+Se, quando o console inicia para o Menu HOME, você vê o erro "Não foi possível detectar um cartão SD", certifique-se de que o seu cartão SD esteja formatado corretamente: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))
 
 :::
 
@@ -48,4 +51,4 @@ Se possível, você deve seguir o método fornecido pelo prompt acima.
 Caso contrário, métodos que funcionam em todas as versões estão disponíveis, mas requerem hardware adicional:
 
 1. [ntrboot](ntrboot) - requer um flashcart de DS compatível
-2. [Instalando boot9strap (Hardmod)](installing-boot9strap-\(hardmod\)) - requer soldagem
+2. [Instalando boot9strap (Hardmod)](installing-boot9strap-(hardmod)) - requer soldagem

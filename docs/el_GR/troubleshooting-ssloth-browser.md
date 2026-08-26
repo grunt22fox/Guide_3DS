@@ -32,7 +32,7 @@
 
 :::
 
-:::details «An error has occurred, forcing the software to close...» (λευκό πλαίσιο μηνύματος)
+:::details Σφάλμα λευκού πλαισίου μηνύματος
 
 Ενδέχεται να υπάρχει πρόβλημα με το αρχείο `arm11code.bin` σας. Κάντε λήψη της πιο πρόσφατης έκδοσης του [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), τοποθετήστε το `otherapp.bin` στη ρίζα της κάρτας SD σας και μετονομάστε το σε `arm11code.bin`. Μην προσθέσετε την επέκταση `.bin` αν δεν τη βλέπετε ήδη.
 
@@ -76,7 +76,7 @@
 9. Ανοίξτε μία φορά την εφαρμογή «Internet Browser»
 10. Εάν σας ζητηθεί ενημέρωση του συστήματος, πατήστε «OK»
     - Αυτή η ενέργεια δεν θα ενημερώσει το σύστημα
-11. Ξεκινήστε ξανά από την [Ενότητα II](installing-boot9strap-\(ssloth-browser\).html#section-ii---ssloth)
+11. Ξεκινήστε ξανά από την [Ενότητα II](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth)
 
 :::
 
@@ -88,7 +88,7 @@
 
 :::details Failed to mount the SD card!
 
-Δημιουργήστε αντίγραφα ασφαλείας των δεδομένων σας και διαμορφώστε ξανά την κάρτα SD σας ως FAT32 με το συνιστώμενο εργαλείο, ανάλογα με το λειτουργικό σας σύστημα ([Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\))). Είναι γνωστό ότι το MiniTool Partition Wizard και το εργαλείο διαμόρφωσης της HP (HPUSBDisk) προκαλούν προβλήματα με τις κάρτες SD των 3DS.
+Δημιουργήστε αντίγραφα ασφαλείας των δεδομένων σας και διαμορφώστε ξανά την κάρτα SD σας ως FAT32 με το συνιστώμενο εργαλείο, ανάλογα με το λειτουργικό σας σύστημα ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). Είναι γνωστό ότι το MiniTool Partition Wizard και το εργαλείο διαμόρφωσης της HP (HPUSBDisk) προκαλούν προβλήματα με τις κάρτες SD των 3DS.
 
 Εάν αυτό αποτύχει, δοκιμάστε να χρησιμοποιήσετε κάποια άλλη κάρτα SD.
 
@@ -108,7 +108,7 @@
 
 ::: tip
 
-Επιστροφή στην [Εγκατάσταση του boot9strap (SSLoth-Browser)](installing-boot9strap-\(ssloth-browser\))
+Επιστροφή στην [Εγκατάσταση του boot9strap (SSLoth-Browser)](installing-boot9strap-(ssloth-browser))
 
 :::
 

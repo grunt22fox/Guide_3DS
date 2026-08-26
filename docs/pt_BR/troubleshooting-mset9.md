@@ -17,9 +17,9 @@ Por favor, ligue seu console com o seu cartão SD inserido e, em seguida, verifi
 Se isso não funcionar, seu cartão SD precisa ser formatado:
 
 1. Copie tudo do cartão SD para seu PC
-2. Formate o cartão SD ([Windows](formatting-sd-\(windows\)), [Linux](formatting-sd-\(linux\)), [macOS](formatting-sd-\(mac\)))
+2. Formate o cartão SD ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 3. Copie tudo de volta
-4. Comece novamente da [Seção I Passo 7](installing-boot9strap-\(mset9-cli\)#section-i---prep-work)
+4. Comece novamente da [Seção I Passo 7](installing-boot9strap-(mset9-cli)#section-i---prep-work)
 
 :::
 
@@ -30,9 +30,9 @@ Dados do Mii Maker não foram encontrados no cartão SD. Por favor, ligue seu co
 Se isso não funcionar, seu cartão SD precisa ser formatado:
 
 1. Copie tudo do cartão SD para seu PC
-2. Formate o cartão SD ([Windows](formatting-sd-\(windows\)), [Linux](formatting-sd-\(linux\)), [macOS](formatting-sd-\(mac\)))
+2. Formate o cartão SD ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 3. Copie tudo de volta
-4. Comece novamente da [Seção I Passo 8](installing-boot9strap-\(mset9-cli\)#section-i---prep-work).
+4. Comece novamente da [Seção I Passo 8](installing-boot9strap-(mset9-cli)#section-i---prep-work).
 
 :::
 
@@ -43,12 +43,12 @@ Certifique-se que você reiniciou o banco de dados.
 - Desligue seu console com o cartão SD inserido
 - Inicie as Configurações do Sistema e navegue para `Gerenciador de Dados` -> `Nintendo 3DS` -> `Software` -> Apagar ([imagem](/images/screenshots/database-reset.jpg))
   - Isso não irá apagar nenhum dos seus dados
-- Se você receber uma mensagem para reiniciar, após reiniciar, desligue seu console e comece novamente a partir de [Seção I Etapa 14](installing-boot9strap-\(mset9-cli\)#section-i---prep-work)
+- Se você receber uma mensagem para reiniciar, após reiniciar, desligue seu console e comece novamente a partir de [Seção I Etapa 14](installing-boot9strap-(mset9-cli)#section-i---prep-work)
 
 Se você _não_ receber uma mensagem de redefinição, seu cartão SD precisa ser formatado:
 
 1. Copie tudo do cartão SD para seu PC
-2. Formate o cartão SD ([Windows](formatting-sd-\(windows\)), [Linux](formatting-sd-\(linux\)), [macOS](formatting-sd-\(mac\)))
+2. Formate o cartão SD ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 3. Copie tudo de volta
 
 <!--@include: ./_include/mset9-chorus.md -->
@@ -57,7 +57,7 @@ Se você _não_ receber uma mensagem de redefinição, seu cartão SD precisa se
 2. Digite `2` e pressione enter para verificar o status do MSET9
    - Isso irá criar as databases fictícias novamente
 3. Feche a janela de script do MSET9
-4. Comece novamente da [Seção I Etapa 12](installing-boot9strap-\(mset9-cli\)#section-i---prep-work).
+4. Comece novamente da [Seção I Etapa 12](installing-boot9strap-(mset9-cli)#section-i---prep-work).
 
 :::
 
@@ -76,9 +76,9 @@ Lembre-se, seu cartão SD deve ficar assim:
 Se o layout do seu cartão SD estiver correto, então o cartão SD provavelmente não está sendo lido pelo seu console e precisa ser formatado:
 
 1. Copie tudo do cartão SD para seu PC
-2. Formate o cartão SD ([Windows](formatting-sd-\(windows\)), [Linux](formatting-sd-\(linux\)), [macOS](formatting-sd-\(mac\)))
+2. Formate o cartão SD ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 3. Copie tudo de volta
-4. Comece novamente do início da [Seção I](installing-boot9strap-\(mset9-cli\)#section-i---prep-work)
+4. Comece novamente do início da [Seção I](installing-boot9strap-(mset9-cli)#section-i---prep-work)
 
 ::::
 
@@ -106,7 +106,7 @@ Você tem múltiplas pastas ID0. Para determinar a pasta correta, siga estas ins
 10. Mova a pasta do verdadeiro ID0 da pasta `BACKUP_Nintendo 3DS` para a pasta `Nintendo 3DS`
 11. Se existir, mova a pasta `Private` da pasta `BACKUP_Nintendo 3DS` para a pasta `Nintendo 3DS`
 
-Assim que você tiver feito isso, continue da [Seção I Passo 3](installing-boot9strap-\(mset9-cli\)#section-i---prep-work).
+Assim que você tiver feito isso, continue da [Seção I Passo 3](installing-boot9strap-(mset9-cli)#section-i---prep-work).
 
 :::
 
@@ -138,13 +138,13 @@ Um ou mais arquivos que o MSET9 precisa executar estão ausentes ou corrompidos.
 
 :::details FileNotFoundError: [Errno 2] No such file or directory
 
-To manually remove MSET9, follow these instructions:
+Para remover o MSET9 manualmente, siga estas instruções:
 
 1. Vá até a pasta `Nintendo 3DS` no seu cartão SD
-2. Open the 32 character long folder that you see
-3. You should see two folders, delete the folder containing garbled text
-4. If the remaining folder ends with _user-id1, remove _user-id1 by renaming it
-5. MSET9 is now removed, consider this a completion of Section IV
+2. Abra a pasta de 32 caracteres que você vê
+3. Você deve ver duas pastas, exclua a pasta que contém o texto distorcido
+4. Se a pasta restante terminar com _user-id1, remova _user-id1 renomeando-a
+5. MSET9 foi removido, considere isso a conclusão da Seção IV
 
 :::
 
@@ -161,19 +161,19 @@ Talvez você esteja sem o `SafeB9S.bin` na raiz do seu cartão SD, ou o arquivo 
 
 1. Digite o número correspondente ao modelo do seu console e a versão, então pressione Enter
    - O estado atual deve exibir [Injected](/images/screenshots/mset9/mset9-injected.png)
-   - Se você já removeu o arquivo de ativação (ou nunca o injetou), o estado atual irá mostrar [Ready](/images/screenshots/mset9/mset9-ready.png), e você pode [tentar a Seção II novamente](installing-boot9strap-\(mset9-cli\)#section-ii---mset9)
+   - Se você já removeu o arquivo de ativação (ou nunca o injetou), o estado atual irá mostrar [Ready](/images/screenshots/mset9/mset9-ready.png), e você pode [tentar a Seção II novamente](installing-boot9strap-(mset9-cli)#section-ii---mset9)
 2. Digite `4` e pressione Enter
 3. Assim que a janela disser "Removed trigger file", digite `0` e depois pressione Enter
 4. Reinsira o cartão SD no seu console
 5. Ligue o seu console
-6. Retorne à [Seção II Passo 1](installing-boot9strap-\(mset9-cli\)#section-ii---mset9)
+6. Retorne à [Seção II Passo 1](installing-boot9strap-(mset9-cli)#section-ii---mset9)
 
 Alternativamente, seu cartão SD pode estar sem a formatação apropriada ou mal particionado. Depois de remover o arquivo de ativação, formate-o:
 
 1. Copie tudo do cartão SD para seu PC
-2. Formate o cartão SD ([Windows](formatting-sd-\(windows\)), [Linux](formatting-sd-\(linux\)), [macOS](formatting-sd-\(mac\)))
+2. Formate o cartão SD ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 3. Copie tudo de volta
-4. Comece novamente da [Seção II Etapa 1](installing-boot9strap-\(mset9-cli\)#section-ii---mset9)
+4. Comece novamente da [Seção II Etapa 1](installing-boot9strap-(mset9-cli)#section-ii---mset9)
 
 :::
 
@@ -195,14 +195,14 @@ Siga estas instruções para remover o arquivo de ativação e tentar novamente 
 3. Assim que a janela disser "Removed trigger file", digite `0` e depois pressione Enter
 4. Reinsira o cartão SD no seu console
 5. Ligue o seu console
-6. Retorne à [Seção II Passo 1](installing-boot9strap-\(mset9-cli\)#section-ii---mset9)
+6. Retorne à [Seção II Passo 1](installing-boot9strap-(mset9-cli)#section-ii---mset9)
 
 Se você continuar tendo este problema e tem certeza que fez tudo corretamente, certifique-se de que o arquivo de ativação foi removido e formate seu cartão SD:
 
 1. Copie tudo do cartão SD para seu PC
-2. Formate o cartão SD ([Windows](formatting-sd-\(windows\)), [Linux](formatting-sd-\(linux\)), [macOS](formatting-sd-\(mac\)))
+2. Formate o cartão SD ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 3. Copie tudo de volta
-4. Comece novamente da [Seção II Etapa 1](installing-boot9strap-\(mset9-cli\)#section-ii---mset9)
+4. Comece novamente da [Seção II Etapa 1](installing-boot9strap-(mset9-cli)#section-ii---mset9)
 
 :::
 
@@ -224,13 +224,13 @@ Isso provavelmente indica que você já possui custom firmware. Você deve [chec
 
 ::: tip
 
-Voltar para [Instalando boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\))
+Voltar para [Instalando boot9strap (MSET9 CLI)](installing-boot9strap-(mset9-cli))
 
 :::
 
 ::: tip
 
-Voltar para [Instalando boot9strap (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\))
+Voltar para [Instalando boot9strap (MSET9 Play Store)](installing-boot9strap-(mset9-play-store))
 
 :::
 

@@ -1,6 +1,6 @@
 ::: info
 
-Ha a szkript nem talál felhasználói ticket-et, folytasd a következő résznél.
+Ha a szkript nem talált egy felhasználói ticketet sem, ugorj a IX. részre a faketik-hez.
 
 :::
 

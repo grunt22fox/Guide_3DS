@@ -10,7 +10,7 @@
 
 ::: warning
 
-This page requires an iPhone or iPad running iOS/iPadOS 14.0 or higher. Si tienes una computadora con Windows, macOS o Linux, sigue [Instalar boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)). Si tienes un teléfono/tablet Android o una Chromebook, debes seguir [Instalar boot9strap (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\)). Si no tienes acceso a ninguno de estos dispositivos, deberás utilizar un [exploit alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
+This page requires an iPhone or iPad running iOS/iPadOS 14.0 or higher. Si tienes una computadora con Windows, macOS o Linux, sigue [Instalar boot9strap (MSET9 CLI)](installing-boot9strap-(mset9-cli)). Si tienes un teléfono/tablet Android o una Chromebook, debes seguir [Instalar boot9strap (MSET9 Play Store)](installing-boot9strap-(mset9-play-store)). Si no tienes acceso a ninguno de estos dispositivos, deberás utilizar un [exploit alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
 
 :::
 
@@ -40,13 +40,11 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
 <!--@include: ./_include/ish-chorus.md -->
 
-    ```
     ::: info
     
     ![](/images/screenshots/mset9/mset9-ish-select.png)
     
     :::
-    ```
 
 1. Type the number corresponding to your console model and version, then tap Return
 

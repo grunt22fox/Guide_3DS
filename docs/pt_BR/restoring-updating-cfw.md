@@ -4,7 +4,7 @@
 
 Esta página prepara consoles com uma instalação moderna do boot9strap para reinstalação e/ou atualização de aplicativos de custom firmware. Ele também pode ser usado em caso de perda ou corrupção do cartão SD.
 
-Seu cartão SD precisa estar formatado como FAT32 para seguir este guia, caso contrário, o 3DS não conseguirá reconhecê-lo. Se o seu cartão SD ainda não estiver formatado corretamente, use uma dessas páginas para formatá-lo, dependendo do seu sistema operacional: [Windows](formatting-sd-\(windows\)), [Mac](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)).
+Seu cartão SD precisa estar formatado como FAT32 para seguir este guia, caso contrário, o 3DS não conseguirá reconhecê-lo. Se o seu cartão SD ainda não estiver formatado corretamente, use uma dessas páginas para formatá-lo, dependendo do seu sistema operacional: [Windows](formatting-sd-(windows)), [Mac](formatting-sd-(mac)), [Linux](formatting-sd-(linux)).
 
 ## O que é necessário
 

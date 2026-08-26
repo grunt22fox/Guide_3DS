@@ -32,7 +32,7 @@ Il file `arm11code.bin` è mancante o mal posizionato. Scarica l'ultima versione
 
 :::
 
-:::details "Si è verificato un errore che ha provocato la chiusura del software..." (messaggio d'errore su schermata bianca)
+:::details Messaggio d'errore su schermata bianca
 
 Potrebbe esserci un problema con il tuo file `arm11code.bin`. Scarica l'ultima versione di [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), posiziona il file `otherapp.bin` nella directory principale della tua scheda SD`e rinominalo in`arm11code.bin`. Non aggiungere l'estensione `.bin\` se non la vedi presente.
 
@@ -76,7 +76,7 @@ Segui in ordine questi passaggi:
 9. Apri il Browser Internet una volta sola
 10. Se ti viene richiesto di fare un aggiornamento di sistema, premi OK
     - Non verrà effettivamente aggiornato il sistema
-11. Ricomincia dalla [Sezione II](installing-boot9strap-\(ssloth-browser\).html#section-ii---ssloth)
+11. Ricomincia dalla [Sezione II](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth)
 
 :::
 
@@ -88,7 +88,7 @@ Potrebbe esserci un problema con il tuo file `arm11code.bin`. Riscarica l'ultima
 
 :::details Impossibile leggere la scheda SD!
 
-Effettua il backup dei tuoi dati e riformatta la tua scheda SD come FAT32 con lo strumento consigliato a seconda del sistema operativo ([Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\))). MiniTool Partition Wizard e lo strumento di formattazione HP (HPUSBDisk) sono noti per causare problemi con schede SD 3DS.
+Effettua il backup dei tuoi dati e riformatta la tua scheda SD come FAT32 con lo strumento consigliato a seconda del sistema operativo ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool Partition Wizard e lo strumento di formattazione HP (HPUSBDisk) sono noti per causare problemi con schede SD 3DS.
 
 Se il problema non si risolve, prova ad usare un'altra scheda SD.
 
@@ -108,7 +108,7 @@ Se il problema non si risolve, prova ad usare un'altra scheda SD.
 
 ::: tip
 
-Ritorna all'[Installazione di boot9strap (SSLoth-Browser)](installing-boot9strap-\(ssloth-browser\))
+Ritorna all'[Installazione di boot9strap (SSLoth-Browser)](installing-boot9strap-(ssloth-browser))
 
 :::
 

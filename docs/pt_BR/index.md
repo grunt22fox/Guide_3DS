@@ -29,7 +29,7 @@ Usos populares para custom firmware incluem:
 - Executar software e jogos homebrew feitos ou portados para o Nintendo 3DS
 - Ignorar o bloqueio de região, permitindo que você jogue jogos de outras regiões
 - Personalizar o Menu HOME, utilizando [temas e insígnias](https://themeplaza.art) criados pela comunidade
-- Modificação de jogos ("ROM hacks") através do [LayeredFS](https://github.com/knight-ryu12/godmode9-layeredfs-usage/wiki/Using-Luma3DS'-layeredfs-\(Only-version-8.0-and-higher\))
+- Modificação de jogos ("ROM hacks") através do [LayeredFS](https://github.com/knight-ryu12/godmode9-layeredfs-usage/wiki/Using-Luma3DS'-layeredfs-(Only-version-8.0-and-higher))
 - Edição, backup e restauração de dados salvos
 - Emulação de consoles mais antigos, assim como reprodução nativa de jogos de DS e GBA
 - Instalar os seus cartuchos físicos para uso digital

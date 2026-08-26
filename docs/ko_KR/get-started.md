@@ -4,11 +4,7 @@ invalidVersion: 올바른 시스템 버전으로 확인되지 않습니다.
 cfwPrefixDetected: Your console may already have custom firmware installed. Please retry Section I. If you still only reach the HOME menu, click the link below and ask, in English, for assistance.
 inviteLinkText: Nintendo Homebrew on Discord
 otherPrefix: (기타)
-head:
-  [
-    [ 'script', { src: '/assets/js/common.js' } ],
-    [ 'script', { src: '/assets/js/selecting.js' } ]
-  ]
+head: [ [ 'script', { src: '/assets/js/common.js' } ], [ 'script', { src: '/assets/js/selecting.js' } ] ]
 ---
 
 # 시작하기
@@ -18,13 +14,20 @@ head:
 ### 섹션 I - CFW 확인
 
 1. 콘솔의 전원을 꺼 주세요
-2. (Select) 버튼을 길게 눌러 주세요
-3. (Select) 버튼을 계속 눌러 있는 상태에서 콘솔의 전원을 켜 주세요
-4. 커스텀 메뉴가 아닌 HOME 메뉴로 부팅이 되었다면 다음 섹션으로 진행할 수 있습니다
+2. Insert your SD card into your console
+3. (Select) 버튼을 길게 눌러 주세요
+4. (Select) 버튼을 계속 눌러 있는 상태에서 콘솔의 전원을 켜 주세요
+5. 커스텀 메뉴가 아닌 HOME 메뉴로 부팅이 되었다면 다음 섹션으로 진행할 수 있습니다
 
 ::: warning
 
 만약 Luma3DS 구성 화면 또는 기타 커스텀 메뉴 (예: GodMode9/Decrypt9WIP)가 표시되면 멈추세요 - 커스텀 펌웨어가 이미 설치되어 있습니다! [이 섹션](checking-for-cfw#what-to-do-next)으로 진행해 주세요.
+
+:::
+
+::: warning
+
+If, when the console boots to the HOME Menu, you see the error "Could not detect an SD card", ensure that your SD card is properly formatted: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))
 
 :::
 
@@ -48,4 +51,4 @@ head:
 아래의 방식은 모든 버전과 호환되나, 추가 하드웨어를 필요로 합니다.
 
 1. [ntrboot](ntrboot) - 호환되는 DS 플래시카드 필요
-2. [boot9strap 설치 (하드모드)](installing-boot9strap-\(hardmod\)) - 납땜 필요
+2. [boot9strap 설치 (하드모드)](installing-boot9strap-(hardmod)) - 납땜 필요

@@ -10,7 +10,7 @@
 
 ::: warning
 
-Esta página requer um celular/tablet Android ou um Chromebook. Se você tem um iPhone ou iPad, siga [Instalando boot9strap (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\)) em vez disso. Se você tiver um computador executando Windows, macOS ou Linux, siga [Instalando boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)) em vez disso. Se você não tiver acesso a nenhum desses dispositivos, será necessário usar um [método alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
+Esta página requer um celular/tablet Android ou um Chromebook. Se você tem um iPhone ou iPad, siga [Instalando boot9strap (MSET9 CLI iOS)](installing-boot9strap-(mset9-cli-ios)) em vez disso. Se você tiver um computador executando Windows, macOS ou Linux, siga [Instalando boot9strap (MSET9 CLI)](installing-boot9strap-(mset9-cli)) em vez disso. Se você não tiver acesso a nenhum desses dispositivos, será necessário usar um [método alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
 
 :::
 

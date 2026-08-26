@@ -2,7 +2,7 @@
 
 :::details MicroSD Card - init failed
 
-O cartão SD está provavelmente agindo estranho. Tente reformatar o seu cartão SD ([Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\))). Se isso não funcionar, tente outro cartão SD.
+O cartão SD está provavelmente agindo estranho. Tente reformatar o seu cartão SD ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). Se isso não funcionar, tente outro cartão SD.
 
 :::
 

@@ -6,56 +6,13 @@
 
 만약 3DS가 이미 SD 카드를 인식한다면, 이 가이드는 따를 필요가 없습니다.
 
-이 페이지는 Windows 사용자만 이용할 수 있습니다. 만약 Windows에서 하는 것이 아니라면, [SD 포맷하기 (Linux)](formatting-sd-\(linux\))나 [SD 포맷하기 (Mac)](formatting-sd-\(mac\)) 페이지들을 찾아봐 주세요.
+이 페이지는 Windows 사용자만 이용할 수 있습니다. 만약 Windows에서 하는 것이 아니라면, [SD 포맷하기 (Linux)](formatting-sd-(linux))나 [SD 포맷하기 (Mac)](formatting-sd-(mac)) 페이지들을 찾아봐 주세요.
 
 ## 준비물
 
-- **모든 SD 카드**: 최신 버전의 [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-- **64GB 이상의 SD 카드를 사용하는 경우:** 최신 버전의 [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
+- The latest version of [guiformat](https://nintendohomebrew.com/guiformat)
 
 ## 진행 방법
-
-### 섹션 I - SD Card Formatter
-
-1. SD 카드를 컴퓨터에 삽입해 주세요
-
-2. 만약 SD 카드에 파일이나 폴더가 있다면, 모든 것을 컴퓨터 내 한 폴더에 복사하세요
-
-3. 다운로드한 `zip` 내의 `SD Card Formatter Setup` (`.exe` 파일)을 관리자 권한으로 실행하고, 설치하세요
-
-4. `SD Card Formatter`를 시작 메뉴에서 실행하세요
-
-5. "Select card"에서 SD 카드의 드라이브를 선택하세요
-
-   ::: danger
-
-   올바른 드라이브를 선택하는 것을 확인하세요. 잘못하면 다른 드라이브를 포맷할 수도 있습니다!
-
-   :::
-
-6. "Volume label"에는 아무거나 입력하세요
-
-7. "Quick Format"이 선택된 것을 확인하세요.
-
-8. "Format"을 클릭하세요
-
-9. "OK"를 클릭하세요
-
-10. 포맷이 완료되는 것을 기다리세요
-
-11. "OK"를 클릭하세요
-
-12. SD Card Formatter를 닫으세요
-
-13. SD 카드의 용량이 32GB 이하이고 포맷 이전에 파일이나 폴더가 존재했다면, 컴퓨터에 백업해 둔 것들을 다시 복사해넣으세요.
-
-::: info
-
-SD 카드의 용량이 **32GB 이하인 경우**, 포맷이 완료되었습니다.
-
-:::
-
-### 섹션 II - guiformat (SD 카드 용량이 64GB 이상인 경우에만)
 
 1. `guiformat.exe`를 실행하세요
 

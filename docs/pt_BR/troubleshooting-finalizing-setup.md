@@ -102,7 +102,7 @@ Certifique-se de que você tem pelo menos 1.3GB disponíveis no seu cartão SD. 
 10. Copie a pasta `Nintendo 3DS` do seu computador para a raiz do seu cartão SD
 11. Exclua a pasta `Nintendo 3DS` do seu computador
 
-Se você tiver espaço suficiente no seu cartão SD, seu SD pode estar corrompido ou com defeito. Verifique se há erros no seu cartão SD de acordo com o sistema operacional do seu computador: [Windows](h2testw-\(windows\)), [Linux](f3-\(linux\)), [macOS](f3xswift-\(mac\)).
+Se você tiver espaço suficiente no seu cartão SD, seu SD pode estar corrompido ou com defeito. Verifique se há erros no seu cartão SD de acordo com o sistema operacional do seu computador: [Windows](h2testw-(windows)), [Linux](f3-(linux)), [macOS](f3xswift-(mac)).
 
 :::
 
